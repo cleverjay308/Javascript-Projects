@@ -1,0 +1,92 @@
+html, body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f8ff;
+}
+h1 {
+    font-family: cursive;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 25vh;
+    background-color: #7fffd4;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: inherit;
+}
+ul {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;   
+}
+li {
+    list-style: none;
+    padding: 0 5rem 0 5rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li :hover, h1:hover {
+    color: blue;
+}
+
+/*  For mobile*/
+@media screen and (max-width: 480px) {
+    body, html {
+        width: 100vw;
+        margin: 0;
+    }
+    .container-fluid {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        width: 100vw;
+    }
+}
+
+main, .main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    max-width: 80vw;
+    max-height: 40vh;
+    position: fixed;
+}
+.container h2 {
+    background-color: gold;
+    height: auto;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.btn {
+    color: brown;
+    padding: 5px;
+    width: 8rem;
+    height: 4.2em;
+    background-color: transparent;
+    border-radius: 5px;
+    font: 1.2rem cursive;
+    font-weight: bold;
+    border: 2px solid #7fffd4;
+}
