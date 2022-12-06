@@ -1,0 +1,26 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.container {
+    display: block;
+    width: inherit;
+    height: inherit;
+
+}
+span {
+    text-align: center;
+    position: relative;
+    right: -5vw;
+    font-size: 100px;
+}
+.btn {
+    padding: 4px;
+    border-radius: 3px;
+}
